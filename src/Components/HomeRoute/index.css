@@ -1,0 +1,34 @@
+.home-container {
+    padding-top: 220px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.todo-image {
+    height: 500px;
+    width: 600px;
+}
+.head-highlight {
+    color: darkblue;
+}
+.get-started-button {
+    background-color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.get-started-button:hover {
+    background-color: black;
+}
